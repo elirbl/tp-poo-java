@@ -46,4 +46,8 @@ public class Animal {
     public void eat() {
         System.out.println("Il mange.");
     }
+
+    public void eat(String food) {
+        System.out.println("Il mange " + food + ".");
+    }
 }

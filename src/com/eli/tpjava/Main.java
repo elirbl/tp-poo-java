@@ -13,4 +13,5 @@ void main() {
     Dog fluffyDog = new Dog("Bob", 2, "Ouaf");
     gentleCow.eat();
     fluffyDog.eat();
+    gentleCow.eat("de l'herbe");
 }
