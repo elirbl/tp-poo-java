@@ -14,4 +14,6 @@ void main() {
     gentleCow.eat();
     fluffyDog.eat();
     gentleCow.eat("de l'herbe");
+
+    fluffyDog.play();
 }

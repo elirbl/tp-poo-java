@@ -4,7 +4,6 @@ public class Animal {
     protected String name;
     protected int age;
     protected String sound;
-    private int nbEyes;
 
     public String getName() {
         return name;
@@ -30,15 +29,10 @@ public class Animal {
         this.sound = sound;
     }
 
-    public int getNbEyes() {
-        return nbEyes;
-    }
-
-    Animal(String name, int age, String sound, int nbEyes) {
+    Animal(String name, int age, String sound) {
         this.name = name;
         this.age = age;
         this.sound = sound;
-        this.nbEyes = 2;
     }
 
     public void makeSound() {
