@@ -43,4 +43,7 @@ public class Animal {
         System.out.println("Un animal doit manger et boire.");
     }
 
+    public void eat() {
+        System.out.println("Il mange.");
+    }
 }
