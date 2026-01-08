@@ -1,6 +1,6 @@
 package com.eli.tpjava;
 
-public class Animal {
+public abstract class Animal {
     protected String name;
     protected int age;
     protected String sound;

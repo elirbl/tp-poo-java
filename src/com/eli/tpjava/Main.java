@@ -1,7 +1,4 @@
-import com.eli.tpjava.Animal;
-import com.eli.tpjava.Cow;
-import com.eli.tpjava.Dog;
-import com.eli.tpjava.Pet;
+import com.eli.tpjava.*;
 
 import static com.eli.tpjava.Animal.needs;
 
@@ -25,4 +22,6 @@ void main() {
     for (Pet pet : petList) {
         pet.play();
     }
+    Cat myCat = new Cat("Patate", 3, "Miaou");
+    myCat.hunt();
 }
