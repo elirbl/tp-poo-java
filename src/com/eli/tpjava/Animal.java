@@ -1,9 +1,10 @@
 package com.eli.tpjava;
 
 public class Animal {
-    String name;
-    int age;
-    String sound;
+    protected String name;
+    protected int age;
+    protected String sound;
+    private int nbEyes;
 
     public String getName() {
         return name;
@@ -29,10 +30,15 @@ public class Animal {
         this.sound = sound;
     }
 
-    Animal(String name, int age, String sound) {
+    public int getNbEyes() {
+        return nbEyes;
+    }
+
+    Animal(String name, int age, String sound, int nbEyes) {
         this.name = name;
         this.age = age;
         this.sound = sound;
+        this.nbEyes = 2;
     }
 
     public void makeSound() {
