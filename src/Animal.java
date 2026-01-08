@@ -37,4 +37,8 @@ public class Animal {
         System.out.println(sound);
     }
 
+    public static void needs() {
+        System.out.println("Un animal doit manger et boire.");
+    }
+
 }
