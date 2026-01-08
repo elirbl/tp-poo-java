@@ -1,3 +1,5 @@
+package com.eli.tpjava;
+
 public class Animal {
     String name;
     int age;
